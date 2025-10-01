@@ -85,7 +85,7 @@ const TourPackages = () => {
               }`}
             >
               {pkg.popular && (
-                <div className="absolute top-0 right-0 bg-gradient-to-r from-primary to-orange-500 text-white px-4 py-1 text-xs font-semibold rounded-bl-lg shadow-md">
+                <div className="absolute top-0 right-0 bg-[#FFD700] text-white px-4 py-1 text-xs font-semibold rounded-bl-lg shadow-md">
                   Most Popular
                 </div>
               )}
@@ -134,7 +134,7 @@ const TourPackages = () => {
                   size="lg"
                   className={`w-full transition-all ${
                     pkg.popular
-                      ? "bg-gradient-to-r from-primary to-orange-500 hover:opacity-90"
+                      ? "bg-[#D4AF37] hover:opacity-90"
                       : "hover:border-primary hover:text-primary"
                   }`}
                 >
