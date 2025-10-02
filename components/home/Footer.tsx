@@ -10,7 +10,7 @@ const Footer = () => {
             <h3 className="text-xl font-bold mb-4">Nakuru Tours</h3>
             <p className="text-gray-300 mb-4">
               Your premier tourism agency for exploring the beauty of Nakuru and
-              Kenya's magnificent landscapes.
+              {"Kenya's"} magnificent landscapes.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="text-white hover:text-green-400 transition-colors">
@@ -109,7 +109,7 @@ const Footer = () => {
             </Link>
           </div>
           <p className="mt-6 text-lg font-semibold text-green-400">
-            Book Your Nakuru Adventure Today – Let's Explore Together!
+            Book Your Nakuru Adventure Today – {"Let's"} Explore Together!
           </p>
         </div>
       </div>
