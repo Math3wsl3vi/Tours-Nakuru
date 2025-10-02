@@ -11,7 +11,7 @@ const Hero = () => {
       {/* Hero Content */}
       <div className="relative h-full flex flex-col justify-center items-center text-center text-white px-4">
         <h1 className="text-4xl md:text-6xl font-bold mb-4">
-          Discover Nakuru, <span className="text-green-400">Explore Kenya</span>
+          Discover Magical<span className="text-green-400">Kenya</span>
         </h1>
         <p className="text-xl md:text-2xl mb-8 max-w-3xl">
           Experience the breathtaking beauty of {"Kenya's"} landscapes, wildlife,
